@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Tiros : MonoBehaviour
 {
-    [SerializeField] private int velocidadeBase = 5;
+    [SerializeField] private int velocidadeBase = 15;
 
     private float tempo = 0.8f;
 
@@ -20,6 +20,6 @@ public class Tiros : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.Translate(new Vector2(velocidadeBase * Time.deltaTime, 0));
+        transform.Translate(new Vector2(0, velocidadeBase * Time.deltaTime));
     }
 }

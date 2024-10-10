@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2114763534018150768}
   - component: {fileID: 6461224130733436457}
+  - component: {fileID: 702017826481730391}
   m_Layer: 0
   m_Name: Foice
   m_TagString: Untagged
@@ -84,3 +85,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &702017826481730391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947220544816622924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff652df2f1d3c541b472dc1ffda5556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadeBase: 5

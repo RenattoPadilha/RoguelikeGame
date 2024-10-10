@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5894185693640936176}
   - component: {fileID: 4196491157849171984}
+  - component: {fileID: 8986601966789015345}
   m_Layer: 0
   m_Name: Tridente
   m_TagString: Untagged
@@ -84,3 +85,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8986601966789015345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7030343802487835469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff652df2f1d3c541b472dc1ffda5556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadeBase: 5
