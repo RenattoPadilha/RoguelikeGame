@@ -28,7 +28,7 @@ public class Person : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
 
-        animator.SetBool(movendoHash, horizontalInput != 0 || verticalInput != 0);
+        animator.SetBool(movendoHash, horizontalInput != 0);
 
         if (horizontalInput > 0)
         {
